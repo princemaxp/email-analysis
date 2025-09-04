@@ -16,7 +16,7 @@ def analyze(file_path):
     return results
 
 if __name__ == "__main__":
-    file_path = "sample.eml"
+    file_path = "sample.eml"  # replace with actual .eml file path
     findings = analyze(file_path)
     for f in findings:
         print(f)
